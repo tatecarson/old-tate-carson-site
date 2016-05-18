@@ -1,6 +1,5 @@
 _site
 .idea
-.tags
 node_modules
 
 # Created by https://www.gitignore.io/api/osx,jekyll,sass
@@ -43,3 +42,19 @@ _site/
 ### Sass ###
 .sass-cache/
 *.css.map
+
+# Ignore tags created by etags, ctags, gtags (GNU global) and cscope
+TAGS
+.TAGS
+!TAGS/
+tags
+.tags
+!tags/
+gtags.files
+GTAGS
+GRTAGS
+GPATH
+cscope.files
+cscope.out
+cscope.in.out
+cscope.po.out
