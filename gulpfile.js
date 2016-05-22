@@ -85,3 +85,5 @@ gulp.task('deploy', function() {
   return gulp.src('./_site/**/*')
     .pipe(ghPages());
 });
+
+//changes so it will deploy 
