@@ -524,12 +524,17 @@ body {
     max-width: 135px;
     color: black;
     height: 55px;
-    font-family: 'Glegoo', serif;
+    font-family: 'Josefin Slab', serif;
     letter-spacing: 1px;
     text-align: left;
     font-size: 175%;
     padding: 0 20px 0 10px;
     margin: 0; }
+  .home-wrap header .subtitle {
+    display: block;
+    text-align: left;
+    padding: 0px 0 0px 10px;
+    top: 0px; }
 
 .home-wrap .site-nav ul {
   list-style: none;
