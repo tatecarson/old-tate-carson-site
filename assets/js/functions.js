@@ -6,7 +6,6 @@ $(function() {
   mobileNav();
 });
 
-
 function mobileNav() {
   $('.mobile-nav-toggle').on('click', function(){
     var status = $(this).hasClass('is-open');

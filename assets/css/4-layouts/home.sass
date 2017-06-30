@@ -15,7 +15,10 @@
   // flex classes, how the columns are displayed
   .flex
     display: flex
-    flex-direction: rows
+    flex-direction: row
+
+  .flex--wrap
+    flex-wrap: wrap
 
   .flex--center
     justify-content: center
@@ -32,15 +35,16 @@
 // 2 col
 .col-1
   max-width: 300px
-  margin: 0 10px
+  margin: 0 15px
 
   //to see dimensions of box
   //background: pink
 
 // 1 col span
 .col-2
-  max-width: 540px
-  margin: 0 10px 30px 40px
+  flex-basis: 300px
+  flex-grow: 1
+  margin: 0 17px 30px 40px
   //background: pink
 
 .col-3
