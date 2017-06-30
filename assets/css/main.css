@@ -493,8 +493,7 @@ header {
   padding: 0.4em 0;
   line-height: 1.25;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
-  -webkit-transition: all 0.15s ease-in-out;
-          transition: all 0.15s ease-in-out; }
+  transition: all 0.15s ease-in-out; }
   .home-cta:hover {
     box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.4); }
 
@@ -584,8 +583,7 @@ header {
     width: 100%;
     background: #333;
     position: relative;
-    -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out; }
+    transition: all 0.3s ease-in-out; }
   .home-wrap .mobile-nav-toggle span:before {
     top: 15px; }
   .home-wrap .mobile-nav-toggle span:after {
@@ -611,8 +609,7 @@ header {
   padding: 30px 0 20px;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
-  -webkit-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out; }
   .home-wrap .mobile-nav ul {
     list-style: none;
     margin: 0;
@@ -669,7 +666,6 @@ section.about2 {
 
 section.compositions {
   background-color: #80a9b3;
-  background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%), -webkit-linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%), -webkit-linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%), linear-gradient(90deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
   background-size: 15px, 20px, 45px, 53px; }
   section.compositions .box {
@@ -690,7 +686,6 @@ section.compositions {
 
 section.dance {
   background-color: #026873;
-  background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%), -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%), -webkit-linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%), -webkit-linear-gradient(0deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.07) 50%, transparent 50%), linear-gradient(90deg, rgba(255, 255, 255, 0.13) 50%, transparent 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.17) 50%), linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, 0.19) 50%);
   background-size: 13px, 29px, 37px, 53px; }
   section.dance .title {
